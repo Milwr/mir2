@@ -169,7 +169,7 @@ namespace Client.MirObjects
             
             if (this == User && Light < 3) Light = 3;
             AttackSpeed = 1400 - ((ASpeed * 60) + Math.Min(370, (Level * 14)));
-            if (AttackSpeed < 550) AttackSpeed = 550;
+            if (AttackSpeed <70) AttackSpeed = 70;
 
             PercentHealth = (byte)(HP / (float)MaxHP * 100);
 
